@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#fafafa"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="请选择"
+        android:textColor="#3f51b5"
+        android:background="#fafafa"
+        android:textSize="20sp"/>
+    <View
+        android:layout_width="310dp"
+        android:layout_height="1.5dp"
+        android:background="#3f51b5"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/sms_ok"
+        android:text="我想好内容了"
+        android:gravity="left|center_vertical"
+        android:background="#fafafa"
+        android:padding="10dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3f51b5"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/sms_not_ok"
+        android:text="我没想好内容"
+        android:gravity="left|center_vertical"
+        android:padding="10dp"
+        android:background="#fafafa"
+
+       />
+
+
+</LinearLayout>

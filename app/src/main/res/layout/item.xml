@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/item_image"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp" />
+    <View
+        android:layout_width="1dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toRightOf="@id/item_image"
+        android:background="#536dfe"
+        />
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_number"
+        android:textSize="22sp"
+        android:layout_margin="10dp"
+        android:textColor="#212121"
+        android:layout_toRightOf="@id/item_image"
+        android:text="18524418996"/>
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_word"
+        android:textSize="15sp"
+        android:text="你好"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#9e9e9e"
+        android:layout_toRightOf="@id/item_image"
+        android:layout_below="@id/item_number"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_date"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:text="2015年12月10日"
+        android:paddingBottom="5dp"
+        android:textColor="#616161"
+        android:layout_toRightOf="@id/item_number"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_time"
+        android:layout_below="@+id/item_date"
+        android:textSize="15sp"
+        android:text="12:15"
+        android:layout_marginLeft="30dp"
+        android:textColor="#616161"
+        android:layout_toRightOf="@id/item_number"/>
+
+</RelativeLayout>

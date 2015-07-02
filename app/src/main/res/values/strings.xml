@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SmsOrTel</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sms">SmsActivity</string>
+    <string name="title_activity_tel">TelActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_sms_not">SmsNotActivity</string>
+    <string name="title_activity_time_picker">TimePickerActivity</string>
+    <string name="title_activity_resource">ResourceActivity</string>
+</resources>

@@ -1,0 +1,88 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+    <com.shamanland.fab.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_call_white_36dp"
+        android:id="@+id/floatButtontel"
+        android:layout_alignParentBottom="true"
+        app:floatingActionButtonColor="#e51c23"
+        android:layout_margin="20dp"
+        />
+    <com.shamanland.fab.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_local_post_office_white_36dp"
+        android:id="@+id/floatButtonsms"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        app:floatingActionButtonColor="#259b24"
+        android:layout_margin="20dp"
+        />
+
+
+
+
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60dp"-->
+       <!-- -->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:background="#263238"-->
+        <!--android:id="@+id/main_linear">-->
+
+        <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_centerVertical="true"-->
+            <!--android:background="#263238"-->
+            <!--android:textColor="#FCFCFC"-->
+
+        <!--android:text="新建短信任务"-->
+            <!--android:layout_weight="1"-->
+        <!--android:textSize="18sp"-->
+            <!--android:id="@+id/send_message"/>-->
+        <!--<View-->
+            <!--android:layout_width="1dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_marginBottom="10dp"-->
+
+            <!--android:background="#1de9b6"-->
+            <!--/>-->
+
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="#263238"-->
+            <!--android:textColor="#FCFCFC"-->
+
+            <!--android:text="新建电话任务"-->
+            <!--android:layout_weight="1"-->
+            <!--android:textSize="18sp"-->
+            <!--android:id="@+id/call_tel"/>-->
+
+    <!--</LinearLayout>-->
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_view"
+        >
+
+    </ListView>
+
+
+
+
+
+
+</RelativeLayout>
